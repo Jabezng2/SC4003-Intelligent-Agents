@@ -1,0 +1,53 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{booktabs}
+\usepackage{float}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+\usepackage{tikz}
+\usetikzlibrary{arrows, positioning}
+
+\begin{document}
+
+\begin{center}
+    \includegraphics[width=0.7\textwidth]{images/logo.png}  % Adjust width & filename
+    \\[60pt]  % Add some vertical space
+    {\LARGE \textbf{Assignment 1: Intelligent Agents}} \\
+    \vspace{20pt}
+    {\large Jabez Ng Yong Xin} \\
+    \vspace{10pt}  % Add spacing
+    {\large U2120757D}
+\end{center}
+
+\vspace{20pt}  % Add some spacing before text starts
+
+\setcounter{page}{1}
+
+\pagebreak
+\tableofcontents
+
+\newpage
+
+\section{Introduction}
+\input{introduction.tex}
+
+\section{Grid Environment}
+\input{grid.tex}
+
+\section{Part 1: Value Iteration}
+\input{value_iteration.tex}
+
+\section{Part 1: Policy Iteration}
+\input{policy_iteration.tex}
+
+\section{Part 2: Complex Maze}
+\input{part2.tex}
+
+\section{Appendix}
+\input{appendix}
+
+\end{document}
